@@ -42,14 +42,14 @@ router.post('/', (req, res) => {
 
 router.delete('/:note_id', (req, res) => {
 
-    console.log(req.params.note_id)
+    //console.log(req.params.note_id)
     if (req.params.note_id){
         readFromFile('./db/db.json').then((data) => {
             notesData = JSON.parse(data)
             for (let i = 0; i < notesData.length; i++){
                 // console.log(i)
-                console.log(notesData[i])
-                console.log(notesData[i].id)
+                //console.log(notesData[i])
+                // console.log(notesData[i].id)
                 if (notesData[i].id == req.params.note_id){
                     notesData.splice(i,1);
                     writeToFile('./db/db.json', notesData)
