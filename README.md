@@ -1,6 +1,7 @@
 CONTENTS OF THIS FILE
 ---------------------
   * Description
+  * Link
   * Screenshots
   * Walkthrough
   
@@ -8,6 +9,10 @@ DESCRIPTION
 -----------
 This web application is a Note Taker. This app uses an Express.js back end and will save and retrieve note data from a JSON file. 
 Using this will allow you to create and delete notes at your own discretion. 
+
+LINK
+----
+[https://dk-note-taker.herokuapp.com/](https://dk-note-taker.herokuapp.com/)
 
 SCREENSHOTS
 -----------
@@ -20,7 +25,7 @@ WALKTHROUGH
 -----------
 The following link will show a walkthrough of the web application: 
 
-[Team Profile Gen Walkthrough](INPUT_LINK_HERE)
+[Note Taker App Walkthrough](https://drive.google.com/file/d/1x-FaItlEOXFiHQ4rdiI4SGMGFMNplR8Q/view)
 
 QUESTIONS
 ---------
